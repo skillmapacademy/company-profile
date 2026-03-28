@@ -1,0 +1,136 @@
+/* Global */
+body {
+  font-family: Raleway, sans-serif;
+  background: #f5f7fb;
+  color: #0b1e3b;
+}
+
+.mt--2 {
+  margin-top: -0.5rem !important;
+}
+
+.hr-dotted {
+  border-top: 1px dotted;
+  opacity: .25;
+}
+
+/* =========================
+   Navbar
+   ========================= */
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0b1e3b !important;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ff8c00 !important;
+}
+
+/* =========================
+   Branding & Text
+   ========================= */
+.text-primary {
+  color: #ff8c00 !important;
+}
+
+.bg-primary {
+  background-color: #0b1e3b !important;
+}
+
+/* =========================
+   Icon Feature
+   ========================= */
+.feature-icon-1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #0b1e3b;
+  border-radius: 100%;
+}
+
+/* =========================
+   Buttons
+   ========================= */
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ff8c00;
+  --bs-btn-border-color: #ff8c00;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #e67600;
+  --bs-btn-hover-border-color: #e67600;
+  --bs-btn-active-bg: #e67600;
+  --bs-btn-active-border-color: #e67600;
+  --bs-btn-disabled-bg: #ff8c00;
+  --bs-btn-disabled-border-color: #ff8c00;
+}
+
+/* Social Media Button */
+.btn-social-media {
+  color: #0b1e3b;
+  background-color: #e4e9f2;
+  border-color: #e4e9f2;
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+
+.btn-social-media:hover {
+  color: #fff;
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+}
+
+/* =========================
+   Cards
+   ========================= */
+.card {
+  background-color: #ffffff;
+}
+
+/* =========================
+   Contact Icons
+   ========================= */
+#contact i.text-primary {
+  color: #ff8c00 !important;
+}
+
+/* =========================
+   Footer
+   ========================= */
+.footer {
+  background-color: #0b1e3b;
+  color: #ffffff;
+}
+
+.footer .copyright a {
+  color: #ff8c00;
+  text-decoration: none;
+}
+
+.footer .copyright a:hover {
+  color: #e67600;
+}
+
+.footer .link a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .link a:hover {
+  color: #ff8c00;
+}
